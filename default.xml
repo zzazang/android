@@ -178,15 +178,15 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="bcm" revision="ics" />
-  <project path="hardware/cm" name="android_hardware_cm" />
+  <project path="hardware/cm" name="android_hardware_cm" revision="ics" remote="bcm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="bcm" revision="ics" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="bcm" revision="ics" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="bcm" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="ics" remote="bcm" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" revision="ics" remote="bcm"/>
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" revision="ics" remote="bcm"/>
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" revision="ics" remote="bcm" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" revision="ics" remote="bcm" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" revision="ics" remote="bcm" />
   <project path="hardware/ril" name="android_hardware_ril" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
