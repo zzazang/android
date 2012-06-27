@@ -20,7 +20,7 @@
 	   fetch="git://github.com/dk-zero-cool/"
 	   revision="ics" />
 
-  <project path="build" name="android_build" remote="bcm" revision="ics">
+  <project path="build" name="android_build" remote="bcm" revision="ics-pdroid">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -165,7 +165,7 @@
   <project path="external/vim" name="android_external_vim" revision="master" />
   <project path="external/yaffs2" name="android_external_yaffs2" />
   <project path="external/zlib" name="android_external_zlib" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="bcm" revision="ics" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="bcm" revision="ics-pdroid" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" />
@@ -191,7 +191,7 @@
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" />
-  <project path="libcore" name="android_libcore" remote="bcm" revision="ics" />
+  <project path="libcore" name="android_libcore" remote="bcm" revision="ics-pdroid" />
   <project path="ndk" name="android_ndk" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
