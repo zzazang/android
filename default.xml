@@ -33,11 +33,7 @@
   <project path="dalvik" name="android_dalvik" remote="bcm" revision="ics" />
   <project path="development" name="android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="bcm" revision="ics" />
-  <project path="device/htc/bravoc" name="android_device_htc_bravoc" remote="bcm" revision="ics" />
-  <project path="device/htc/passion" name="android_device_htc_passion" remote="bcm" revision="ics" />
-  <project path="device/htc/common" name="android_device_htc_common" remote="bcm" revision="ics" />
-  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="bcm" revision="ics"/>
+  <project path="device/htc" name="android_device_htc" remote="bcm" revision="ics" />
   <project path="external/mesa3d" name="android_external_mesa3d" remote="bcm" revision="ics" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/antlr" name="platform/external/antlr" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -252,11 +248,8 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="prebuilt" name="android_prebuilt" />
-  <project path="vendor/qsd8k" name="android_vendor_qsd8k" revision="ics" remote="bcm" />
+  <project path="vendor/htc" name="android_vendor_htc" revision="ics" remote="bcm" />
   <project path="vendor/bcm" name="android_vendor_bcm" revision="ics" remote="bcm" />
-  <project path="vendor/htc/bravo" name="android_vendor_htc_bravo" remote="bcm" revision="ics" />
-  <project path="vendor/htc/bravoc" name="android_vendor_htc_bravoc" remote="bcm" revision="ics" />
-  <project path="vendor/htc/passion" name="android_vendor_htc_passion" remote="bcm" revision="ics" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="android_vendor_qcom_opensource_kernel-tests_mm-audio" remote="evervolv" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="evervolv" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="evervolv" revision="ics" />
